@@ -545,7 +545,6 @@ dependencies:
   - zope.interface=6.0=py310h1fa729e_0
   - zstd=1.5.2=h3eb15da_6
   - pip:
-      - awscli==1.27.157
       - boto3==1.26.157
       - botocore==1.29.157
       - colorama==0.4.4
@@ -563,7 +562,7 @@ dependencies:
       - protobuf==3.20.3
       - protobuf3-to-dict==0.1.5
       - pyasn1==0.5.0
-      - pyyaml==5.4.1
+      - pyyaml
       - rsa==4.7.2
       - ruamel-yaml==0.17.26
       - ruamel-yaml-clib==0.2.7
@@ -573,4 +572,3 @@ dependencies:
       - schema==0.7.5
       - smdebug-rulesconfig==1.0.1
       - urllib3==1.26.14
-prefix: /home/ec2-user/anaconda3/envs/python3
